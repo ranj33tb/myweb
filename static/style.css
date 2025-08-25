@@ -1,0 +1,76 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Courier New', monospace;
+  background: black;
+  color: #00ff88;
+  overflow: hidden;
+}
+
+nav {
+  background: #111;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #00ff88;
+  font-weight: bold;
+}
+nav a:hover {
+  color: white;
+}
+
+.container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  margin-top: 100px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #00ff88;
+  background: black;
+  color: #00ff88;
+  border-radius: 6px;
+}
+button:hover {
+  background: #00ff88;
+  color: black;
+  cursor: pointer;
+}
+
+pre {
+  text-align: left;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #00ff88;
+  background: #111;
+  width: 80%;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+brotli
+rich
+jinja2
